@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Argon Dashboard 2 Tailwind - v1.0.0
+* Argon Dashboard 2 Tailwind - v1.0.1
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/argon-dashboard-tailwind
@@ -1112,8 +1112,8 @@ h6 {
   margin-top: -12rem;
 }
 
-.-ml-7-em {
-  margin-left: -1.75em;
+.-ml-7 {
+  margin-left: -1.75rem;
 }
 
 .-mt-2 {
@@ -1177,7 +1177,7 @@ h6 {
 }
 
 .h-sidenav {
-  height: calc(100vh - 310px);
+  height: calc(100vh - 360px);
 }
 
 .h-8 {
@@ -1220,10 +1220,6 @@ h6 {
   height: 1.25rem;
 }
 
-.h-5-em {
-  height: 1.25em;
-}
-
 .h-\[80vh\] {
   height: 80vh;
 }
@@ -1252,12 +1248,8 @@ h6 {
   height: 0.25rem;
 }
 
-.h-6-em {
-  height: 1.5em;
-}
-
-.h-4\.8-em {
-  height: 1.2em;
+.h-4\.8 {
+  height: 1.2rem;
 }
 
 .h-4 {
@@ -1416,10 +1408,6 @@ h6 {
   width: 40%;
 }
 
-.w-6-em {
-  width: 1.5em;
-}
-
 .w-5\.5 {
   width: 1.375rem;
 }
@@ -1436,8 +1424,8 @@ h6 {
   width: 25%;
 }
 
-.w-4\.8-em {
-  width: 1.2em;
+.w-4\.8 {
+  width: 1.2rem;
 }
 
 .w-0 {
@@ -2279,14 +2267,9 @@ h6 {
   padding-right: 0.75rem;
 }
 
-.py-2\.2-em {
-  padding-top: 0.55em;
-  padding-bottom: 0.55em;
-}
-
-.px-3\.6-em {
-  padding-left: 0.9em;
-  padding-right: 0.9em;
+.py-2\.2 {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
 }
 
 .py-2\.5 {
@@ -2337,6 +2320,11 @@ h6 {
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.py-1\.4 {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
 }
 
 .pl-0 {
@@ -2455,8 +2443,8 @@ h6 {
   padding-bottom: 14rem;
 }
 
-.pl-7-em {
-  padding-left: 1.75em;
+.pl-7 {
+  padding-left: 1.75rem;
 }
 
 .pt-48 {
@@ -2499,36 +2487,39 @@ h6 {
   font-family: Open Sans;
 }
 
-.text-size-base {
+.text-base {
   font-size: 1rem;
+  line-height: 1.5rem;
 }
 
-.text-size-sm {
+.text-sm {
   font-size: 0.875rem;
+  line-height: 1.5rem;
 }
 
-.text-size-xs {
+.text-xs {
   font-size: 0.75rem;
+  line-height: 1rem;
 }
 
-.text-size-lg {
+.text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
-.text-size-xxs {
+.text-xxs {
   font-size: 0.65rem;
+  line-height: 1rem;
 }
 
-.text-size-xl {
+.text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
-.text-size-inherit {
-  font-size: inherit;
-}
-
-.text-size-3xs {
+.text-3xs {
   font-size: 0.5rem;
+  line-height: 1rem;
 }
 
 .text-2\.8 {
@@ -2539,11 +2530,7 @@ h6 {
   font-size: 0.5rem;
 }
 
-.text-size-xs-em {
-  font-size: 0.75em;
-}
-
-.text-size-banner-calculate {
+.text-banner-calculate {
   font-size: calc(1.625rem+4.5vw);
 }
 
@@ -3316,9 +3303,10 @@ h6 {
   font-family: FontAwesome;
 }
 
-.after\:text-size-fa-check::after {
+.after\:text-xxs::after {
   content: var(--tw-content);
-  font-size: 0.67rem;
+  font-size: 0.65rem;
+  line-height: 1rem;
 }
 
 .after\:text-white::after {
@@ -4375,8 +4363,9 @@ h6 {
     padding-right: 3rem;
   }
 
-  .xl\:text-size-8xl {
+  .xl\:text-8xl {
     font-size: 5rem;
+    line-height: 1;
   }
 }
 
