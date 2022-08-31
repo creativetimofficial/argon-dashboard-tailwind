@@ -19,7 +19,7 @@ var whiteBtn = document.querySelector("[transparent-style-btn]");
 var darkBtn = document.querySelector("[white-style-btn]");
 
 var non_active_style = ["bg-none", "bg-transparent", "text-blue-500", "border-blue-500"];
-var active_style = ["bg-gradient-blue", "bg-blue-500", "text-white", "border-transparent"];
+var active_style = ["bg-gradient-to-tl", "from-blue-500", "to-violet-500", "bg-blue-500", "text-white", "border-transparent"];
 
 var white_sidenav_classes = ["bg-white", "shadow-xl"];
 // var white_sidenav_highlighted = ["shadow-xl"];
